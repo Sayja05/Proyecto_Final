@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+.bottom__buy {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #0006;
+}
+.bottom__buy input {
+    border-radius: 10px;
+    font-family: sans-serif;
+    background-color: rgb(107, 79, 107);
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.bottom__buy label {
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    color: rgb(84, 58, 84);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
