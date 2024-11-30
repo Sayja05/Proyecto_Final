@@ -15,7 +15,7 @@ div {
     border-radius: 8px;
     box-shadow: 0 0 10px #0006;
 }
-.bottom__buy input {
+.bottom__buy input[type="submit"] {
     border-radius: 10px;
     font-family: sans-serif;
     background-color: rgb(107, 79, 107);
@@ -27,6 +27,12 @@ div {
     font-weight: bold;
     border: none;
 }
+.bottom__buy input[type="text"]{
+    width: 90%;
+    padding: 12px;
+    margin: 10px;
+    justify-content: center;
+}
 .bottom__buy label {
     width: 100%;
     margin-bottom: 15px;
@@ -36,4 +42,11 @@ div {
     color: rgb(84, 58, 84);
     font-weight: bold;
     letter-spacing: 2px;
+}
+#resultado {
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 30px;
+    border: 1px solid #000;
 }
